@@ -8,7 +8,6 @@ google-ID: 'G-VV0X68Q9QE'
 
 menu:
 - {name: 'Demo',     url: 'demo'}
-- {name: 'Updates',     url: 'updates'}
 - {name: 'Code',        url: 'code'}
 - {name: 'About',       url: 'about'}
 - {name: 'Contact',     url: 'contact'}

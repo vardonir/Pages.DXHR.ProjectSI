@@ -2,19 +2,19 @@
 layout: post
 title: "August 2022 Alpha Demo Recap"
 categories: demo
-tags: [demo]
+tags: [ue-demo, helipad, vtol-interior, first-floor, security-office, sarif-hr]
 image: 2022augalpha/20220807233832.png
 ---
 
-[6th of August 2022, I made a post on reddit](https://www.reddit.com/r/Deusex/comments/whs7ox/a_first_demo_in_my_project_to_recreate/) about a little project that I've been keeping quiet about for more than a year.
+[6th of August 2022, I made a post on reddit](https://www.reddit.com/r/Deusex/comments/whs7ox/a_first_demo_in_my_project_to_recreate/) about a little project that I've been keeping quiet about for more than a year. I know this is the first post in this blog, so please see the about page for more info about the project itself.
 
-I took something that I threw together for the past month, added a camera and looked up how UE5's sequence editor works, and made this.
+Anyway, for the past month, I've been working on the VTOL interior and I've gotten started on the helipad itself. I had the idea of throwing that together, added a camera and looked up how UE5's sequence editor works, and made this.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hReMq_UZFhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This demo in particular combines the background in the VTOL's interior as shown in the scene before you start the mission in the Manufacturing Plant and the helipad behind the SI building. The helipad set is very much a work in progress; I had to use some surfaces from the Megascans library for the helipad surface itself to make the demo look presentable.
+The helipad set is very much a work in progress; I had to use some surfaces from the Megascans library for the helipad surface itself to make the demo look presentable, since the UVs and textures of the actual helipad are broken and need to be fixed manually.
 
-The light used in the demo is directional, I rotated it a bit as the animation ran.
+The light used in the demo is directional, I rotated it a bit as the animation ran. Everything else is standard - I kept exposure to manual, there's a skylight, directional fog, etc etc. I only got into UE5 about a few weeks ago so there's a lot of room for improvement.
 
 ### some rendered stills
 
@@ -24,7 +24,7 @@ The light used in the demo is directional, I rotated it a bit as the animation r
 
 #### comparison shot 1
 
-the in-game shot is from DXHR-DC
+The in-game shots are from DXHR-DC, running in all max settings on 1080p. Normally, I just take a bajillion screenshots of what I'm working on and pile them in a folder, but I couldn't do that in this scene so I had to record it.
 
 ![alt](assets/img/2022augalpha/20220807234310.png)
 ![alt](assets/img/2022augalpha/20220807234300.png)
@@ -35,24 +35,26 @@ the in-game shot is from DXHR-DC
 without external lighting:
 ![alt](assets/img/2022augalpha/20220807234456.png)
 
-with using a tinted spotlight 
+using a tinted spotlight: 
 ![alt](assets/img/2022augalpha/20220808174728.png)
 
 ### blender
 ![alt](assets/img/2022augalpha/20220808221736.png)
 ![alt](assets/img/2022augalpha/20220808221523.png)
 
-fun fact: if you run Ninja Ripper on the VTOL scene, you actually get to see Jensen's jacket just hanging there next to him. The camera doesn't show it since the entire scene focuses on the two of them, but it's there. textures and all.
+fun fact: if you run Ninja Ripper on the VTOL scene, you actually get to see Jensen's jacket just hanging there next to him. The camera doesn't show it since the entire scene focuses on the two of them, but it's there, textures and all.
 ![alt](assets/img/2022augalpha/20220808221553.png)
 
 ![alt](assets/img/2022augalpha/20220808221816.png)
 
-another fun fact: the VTOL has no fourth wall
+another fun fact: the VTOL has no fourth wall. I guess they never really made it for that scene since the camera doesn't really pan to that direction.
 ![alt](assets/img/2022augalpha/20220808221841.png)
+
+If there are any other non-pre-rendered scenes inside the VTOL, please let me know.
 
 ### helipad
 
-It's still on the very early stages so I'm still only 10% into texturing it, but I do have some shots of the meshes
+It's still on the very early stages so I'm still only 10% into texturing it, but I do have some shots of the meshes I have so far. I still have a couple more set pieces to process and align, including the hangar right outside that you can't access and some background bits like the water tower.
 
 ![alt](assets/img/2022augalpha/20220808222003.png)
 ![alt](assets/img/2022augalpha/20220808222024.png)
@@ -61,22 +63,27 @@ fun fact: As far as I know, there are no scenes with Malik in the VTOL that are 
 
 ![alt](assets/img/2022augalpha/20220808222316.png)
 
-
 The SI building facade looks a bit like a Borg cube with just the bare textures lmao
 
 ![alt](assets/img/2022augalpha/20220808222430.png)
 
 ### preview of other stuff in progress 
 
+The meshes for the security office are mostly there. For texturing, some of the decals and the glass windows need a lot of manual work, and there's a massive set piece with broken textures (more on that later).
 ![alt](assets/img/2022augalpha/20220808222750.png)
+
+I have all the meshes for the first floor, everything is ripped and processed (more details on the pipeline later), I just need to piece it together. It's actually pretty easy, just very tedious.
 ![alt](assets/img/2022augalpha/20220808222935.png)
 
 ### bonus: a little something that's been driving me nuts
 
-I think I got everything to look right, except for the normals. The engravings in-game look a lot deeper compared to anything I can set-up on UE5 and Blender. I tried cranking up the blue channel of the normal map to some ridiculous numbers and still nothing.
+For the demo, I actually wanted to have Sarif in the VTOL as the camera pans around. His character model was easy to get. Getting his textures just right made me slam my head against the wall for two days.
 
 ![alt](assets/img/2022augalpha/20220808223145.png)
 
-I'm not going to dwell on it right now because it's not the main focus of this part of the project, but I still want to get it to work.
+The engravings in-game look a lot deeper compared to anything I can set-up on UE5 and Blender. I tried cranking up the blue channel of the normal map to some ridiculous numbers and still nothing. I played around with the mask channels, still nothing. My material set-up needs a lot of work.
 
-Also, yes, it's brown, according to the in-game textures.
+But I'm not going to dwell on it right now because it's not the main focus of this part of the project, but I still want to get it to work goddamnit.
+
+Also, yes, it's brown, according to the in-game textures. The design on the finger joints remind me of [another famous fictional character with a right arm prosthetic.](https://en.wikipedia.org/wiki/Edward_Elric)
+
