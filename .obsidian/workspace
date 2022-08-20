@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2022-08-08-aug-alpha-demo-recap.md",
+            "file": "_posts/2022-08-21-aug-public-demo-preview.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-08-08-aug-alpha-demo-recap.md",
+                "file": "_posts/2022-08-21-aug-public-demo-preview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-08-08-aug-alpha-demo-recap.md",
+                "file": "_posts/2022-08-21-aug-public-demo-preview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-08-08-aug-alpha-demo-recap.md"
+                "file": "_posts/2022-08-21-aug-public-demo-preview.md"
               }
             }
           }
@@ -130,8 +130,9 @@
   },
   "active": "eb5176ea52ebc1e6",
   "lastOpenFiles": [
-    "_ObsidianTemplates/post.md",
     "_posts/2022-08-08-aug-alpha-demo-recap.md",
+    "_posts/2022-08-21-aug-public-demo-preview.md",
+    "_ObsidianTemplates/post.md",
     "_posts/2016-05-05-learning-resources.md",
     "_posts/2016-04-04-about-the-author.md",
     "_posts/2022-08-08-aaa.md",

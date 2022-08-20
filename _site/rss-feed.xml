@@ -7,10 +7,22 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>August 2022 Public Demo Preview</title>
+				
+				
+					<description>&lt;p&gt;&lt;img src=&quot;assets/img/2022augpublic/20220821004049.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 21 Aug 2022 00:00:00 +0300</pubDate>
+				<link>/aug-public-demo-preview</link>
+				<guid isPermaLink="true">/aug-public-demo-preview</guid>
+			</item>
+		
+			<item>
 				<title>August 2022 Alpha Demo Recap</title>
 				
 				
-					<description>&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Deusex/comments/whs7ox/a_first_demo_in_my_project_to_recreate/&quot;&gt;6th of August 2022, I made a post on reddit&lt;/a&gt; about a little project that I’ve been keeping quiet about for more than a year.&lt;/p&gt;
+					<description>&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Deusex/comments/whs7ox/a_first_demo_in_my_project_to_recreate/&quot;&gt;6th of August 2022, I made a post on reddit&lt;/a&gt; about a little project that I’ve been keeping quiet about for more than a year. I know this is the first post in this blog, so please see the about page for more info about the project itself.&lt;/p&gt;
 </description>
 				
 				<pubDate>Mon, 08 Aug 2022 00:00:00 +0300</pubDate>
