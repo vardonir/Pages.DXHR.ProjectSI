@@ -22,11 +22,11 @@ This is what the devs have to say about it:
 
 > One of the peculiarities of the rip, is the distortion of the mesh geometry. You need to restore the geometry. One of the options is to find the projection matrix in the ripper's log, if it is not there you should try to adjust FOV manually.
 
-Luckily, DXHR is one of those games where the projection matrix (which is a 4x4 matrix) is available in the log. But if you make one rip and look for 4x4 matrices, you get... a fcking lot of matrices. I found about ~1100 matrices in one log file for one rip. I'm not going to test all those matrices, especially since I can't automate that process (or, I haven't found a way to do so).
+Luckily, DXHR is one of those games where the projection matrix (a 4x4 matrix) is available in the log. But if you make one rip and look for 4x4 matrices, you get... a fcking lot of matrices. I found about ~1100 matrices in one log file for one rip. I'm not going to test all those matrices, especially since I can't automate that process (or, I haven't found a way to do so).
 
 I asked in the channel. They gave me a matrix from a log I provided. Hooray. But I'm not going to need more than one rip (further details on why below) and I'm not going feed them logs for every single rip I make, so I needed to find my own solution.
 
-And I did. I originally intended to put up my python code here on finding those bloody matrices, but it's 10% semi-logical conclusions and 90% handwavy "eh, it produces stuff that works," so I'm going to skip it.
+And I did. I originally intended to put up my python code here on finding those bloody matrices, but it's 10% semi-logical conclusions and 90% handwavy "eh, it produces stuff that works," so I'm going to skip it. I'd be happy to discuss it, I guess, but I'd really rather not.
 
 But, tldr, if you want to use NR, you need that matrix.
 
@@ -37,7 +37,7 @@ When you make a fresh rip, with the right matrix, the output looks a bit like th
 ![alt](assets/img/ninjaripper/20220829225758.png)
 ![alt](assets/img/ninjaripper/20220829225821.png)
 
-Uh, the devs say that it's "shaders", like light effects and such. They're a bitch to clean up manually and in complex scenes, there tends to be a lot of them.
+Uh,  the devs say that it's "shaders", like light effects and such. They're a bitch to clean up manually and in complex scenes, there tends to be a lot of them.
 
 I have a code that cleans those up, but it's also a tad handwavy, I haven't fully tested its reliability, so I'd rather not discuss it here.
 
