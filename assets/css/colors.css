@@ -19,3 +19,11 @@ body {
 .footer a {
     color: #eecf7b;
 }
+
+.highlight {
+    background-color: black;
+    border-color: gray;
+    border-style: dotted;
+    border-width: thin;
+    color: white
+}

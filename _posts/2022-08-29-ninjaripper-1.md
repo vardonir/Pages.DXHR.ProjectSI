@@ -160,10 +160,8 @@ Takes a bit of manual labor to link the right image to the Principled BDSF node,
 
 So, now I can make a rip, clean it, fix it (mostly), but there's still the problem from the first part - it only gets the scene partially. 
 
-![alt](assets/img/ninjaripper/20220815182242.png)
 ![alt](assets/img/ninjaripper/18256-0.gif)
 
-![alt](assets/img/ninjaripper/20220815182320.png)
 ![alt](assets/img/ninjaripper/18256-1.gif)
 
 You can see here that if you make a rip, you'd only end up with parts of the scene. This makes perfect sense - the game is not going to render anything that's outside of the camera's field of vision. But that means that I need to make a bunch of rips of the same location with different camera angles in order to get the full environment.
