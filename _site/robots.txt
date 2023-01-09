@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://six.vardonir.com/sitemap.xml

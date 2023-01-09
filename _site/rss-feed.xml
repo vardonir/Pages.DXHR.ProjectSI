@@ -7,15 +7,39 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Website overhaul in progress. Check again later</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Mon, 09 Jan 2023 00:00:00 +0200</pubDate>
+				<link>https://six.vardonir.com/overhaul</link>
+				<guid isPermaLink="true">https://six.vardonir.com/overhaul</guid>
+			</item>
+		
+			<item>
+				<title>Not dead. Just hibernating</title>
+				
+				
+					<description>&lt;p&gt;I’ll be back. In the meantime…&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 13 Oct 2022 00:00:00 +0300</pubDate>
+				<link>https://six.vardonir.com/not-dead</link>
+				<guid isPermaLink="true">https://six.vardonir.com/not-dead</guid>
+			</item>
+		
+			<item>
 				<title>August 2022 Public Demo Preview</title>
 				
 				
 					<description>&lt;p&gt;&lt;img src=&quot;assets/img/2022augpublic/20220821004049.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
 </description>
 				
-				<pubDate>Sun, 21 Aug 2022 00:00:00 +0300</pubDate>
-				<link>/aug-public-demo-preview</link>
-				<guid isPermaLink="true">/aug-public-demo-preview</guid>
+				<pubDate>Sat, 20 Aug 2022 00:00:00 +0300</pubDate>
+				<link>https://six.vardonir.com/aug-public-demo-preview</link>
+				<guid isPermaLink="true">https://six.vardonir.com/aug-public-demo-preview</guid>
 			</item>
 		
 			<item>
@@ -26,8 +50,8 @@
 </description>
 				
 				<pubDate>Mon, 08 Aug 2022 00:00:00 +0300</pubDate>
-				<link>/aug-alpha-demo-recap</link>
-				<guid isPermaLink="true">/aug-alpha-demo-recap</guid>
+				<link>https://six.vardonir.com/aug-alpha-demo-recap</link>
+				<guid isPermaLink="true">https://six.vardonir.com/aug-alpha-demo-recap</guid>
 			</item>
 		
 	</channel>
